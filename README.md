@@ -1,6 +1,6 @@
-# Star Wars Server — Сайт
+# [KAIF] Star Wars RP — Сайт
 
-Статический сайт проекта сервера Star Wars. Включает страницы: `index.html`, `news.html`, `ustav.html` (Устав), `rules.html` (Правила), `hierarchy.html`.
+Статический сайт проекта [KAIF] Star Wars RP. Включает страницы: `index.html`, `news.html`, `ustav.html` (Устав), `rules.html` (Правила), `hierarchy.html`.
 
 ## Запуск локально (Windows)
 
