@@ -470,6 +470,32 @@ body::after {
 h2 .hash-link, h3 .hash-link { opacity: 0; margin-left: 6px; color: var(--muted); text-decoration: none; }
 h2:hover .hash-link, h3:hover .hash-link { opacity: 1; }
 
+.donate-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 20px; }
+@media (max-width: 900px) { .donate-grid { grid-template-columns: 1fr; } }
+
+.donate-card { position: relative; overflow: hidden; }
+.donate-card h2 { margin-top: 0; }
+.price {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px; border-radius: 999px; font-weight: 700;
+  background: rgba(255,232,31,0.1); color: var(--accent);
+  border: 1px solid rgba(255,232,31,0.35);
+  box-shadow: 0 0 12px rgba(255,232,31,0.2);
+}
+
+.section-title { display:flex; align-items:center; gap:10px; margin: 8px 0 10px; }
+.section-title .saber { flex: 1; height: 4px; margin: 0; }
+
+.btn-discord {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #5865F2; color: #fff; border: none;
+  padding: 10px 14px; border-radius: 8px; text-decoration: none;
+  box-shadow: 0 8px 20px rgba(88,101,242,0.35);
+  transition: transform .18s ease, box-shadow .25s ease;
+}
+.btn-discord:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(88,101,242,0.45); }
+.btn-discord svg { width: 18px; height: 18px; }
+
 @media (max-width: 1100px) {
   .features { grid-template-columns: repeat(2, 1fr); }
 }
